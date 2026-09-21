@@ -1,8 +1,20 @@
 {
   "schema_version": "1",
   "event_id": "EVENT-007-DEMO",
-  "subject_ref": "SUBJECT-007-DEMO",
+  "source_id": "SCHOOL-DEMO-01",
+  "source_sequence": 42,
+  "subject_ref": "SLOT-007-DEMO",
   "occurred_at": "2026-09-19T09:30:00+08:00",
-  "source_sequence": 1,
-  "payload_digest": "sha256:demo"
+  "type": "slot_planned",
+  "payload_digest": "sha256:demo",
+  "idempotency_key": "",
+  "manifest_ref": "",
+  "payload": {
+    "ref": "SLOT-007-DEMO",
+    "artwork_ref": "ART-007-DEMO",
+    "venue_ref": "VEN-PINGYAO-01",
+    "start": "2026-09-25T10:00:00+08:00",
+    "end": "2026-09-25T12:00:00+08:00",
+    "devices": ["DEV-PROJECTOR-07"]
+  }
 }
