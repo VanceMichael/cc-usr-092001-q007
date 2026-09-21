@@ -1,8 +1,14 @@
 {
   "schema_version": "1",
-  "event_id": "EVENT-007-DEMO",
-  "subject_ref": "SUBJECT-007-DEMO",
-  "occurred_at": "2026-09-19T09:30:00+08:00",
-  "source_sequence": 1,
-  "payload_digest": "sha256:demo"
+  "event_id": "EVT-LOGI-20260915-0007",
+  "source": "logistics-partner-3",
+  "source_sequence": 42,
+  "occurred_at": "2026-09-15T14:20:00+08:00",
+  "subject_ref": "COMP-1001-A",
+  "type": "component_arrived",
+  "payload": {
+    "component_ref": "COMP-1001-A",
+    "venue_ref": "V-PING-COURTYARD-07",
+    "condition_note": "外包装完好，温湿度记录随附"
+  }
 }

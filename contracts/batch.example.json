@@ -1,0 +1,47 @@
+{
+  "batch_ref": "PIP-2026-SXAU-01",
+  "school_ref": "SXAU",
+  "occurred_at": "2026-09-01T09:30:00+08:00",
+  "works": [
+    {
+      "ref": "WORK-SXAU-1001",
+      "title": "古城墙组照（脱敏标题）",
+      "artist_ref": "ART-0001",
+      "medium": "photo",
+      "components": [
+        {
+          "ref": "COMP-1001-A",
+          "form": "physical",
+          "medium": "photo",
+          "transport_class": "framed_fragile_climate18_55rh",
+          "sha256": "sha256:000000000000000000000000000000000000000000000000000000000000aaaa"
+        },
+        {
+          "ref": "COMP-1001-B",
+          "form": "digital",
+          "medium": "video",
+          "playback_profile": "4k/hdr",
+          "sha256": "sha256:000000000000000000000000000000000000000000000000000000000000bbbb"
+        }
+      ],
+      "rights": [
+        {
+          "ref": "RIGHT-1001-CN",
+          "holder_ref": "HOLDER-0001",
+          "countries": ["CN"],
+          "media": ["photo"],
+          "not_before": "2026-09-19T00:00:00+08:00",
+          "not_after": "2026-09-30T00:00:00+08:00",
+          "statement_sha": "sha256:000000000000000000000000000000000000000000000000000000000000cccc"
+        }
+      ],
+      "loan": {
+        "ref": "LOAN-1001",
+        "lender_ref": "ART-0001",
+        "start": "2026-09-10T00:00:00+08:00",
+        "end": "2026-10-10T18:00:00+08:00",
+        "conditions": ["no_direct_sunlight", "max_humidity_55"]
+      }
+    }
+  ]
+}
